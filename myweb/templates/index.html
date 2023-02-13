@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container-fluid">
+    <div class="container-fluid text-center alert-dismissible mt-5 p-3" style="background-color: blueviolet; color: #fff;">
+        <h2>Coupon Code form</h2>
+    </div>
+    <div class="col-12 offset-4 mt-5"> 
+        <form action="" method="post">
+         
+            <div class="col-4 p-1">
+                <label for="">Offer Name :</label>
+                <input type="text" class="form-control" name="" id="" placeholder="Offer Name">
+            </div>
+            <div class="col-4 p-1">
+                <label for="">Method :</label>
+                <input type="text" class="form-control" name="" id="" placeholder="Type">
+            </div>
+            <div class="col-4 p-1">
+                <label for="">Start Date :</label>
+                <div class="row">
+                    <div class="col">
+                        <input type="date" class="form-control" name="" id="" placeholder="">
+                    </div>
+                    <div class="col">
+                        <input type="time" class="form-control" name="" id="" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 p-1">
+                <label for="">End Date :</label>
+                <div class="row">
+                    <div class="col">
+                        <input type="date" class="form-control" name="" id="" placeholder="">
+                    </div>
+                    <div class="col">
+                        <input type="time" class="form-control" name="" id="" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 p-1">
+                <label for="">Amount</label>
+                <input type="number" class="form-control" name="" id="" placeholder="Rs. 3000">
+            </div>
+            <div class="col-4 p-1">
+                <label for="">Discount</label>
+                <input type="number" class="form-control" name="" id="" placeholder="Rs. 500">
+            </div>
+            <div class="col-4 p-1">
+                <label for="">Total usage</label>
+                <input type="number" class="form-control" name="" id="" placeholder="1000">
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg mt-3 align-top">Click</button>
+        </form>
+    </div>
+</div>
+
+{% endblock content %}
